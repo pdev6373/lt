@@ -127,14 +127,15 @@
 
 @media (min-width: 1350px) {
   .wrapper {
+    font-size: clamp(36px, 2.875976vw, 48px);
     align-items: center;
-    padding: 96px 40px 120px;
-    gap: 56px;
+    padding: 2em 40px 2.5em;
+    gap: 1.1666667em;
   }
 
   .heading {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: clamp(36px, 2.875976vw, 48px);
+    line-height: 1.1666667em;
   }
 
   .top {

@@ -212,8 +212,8 @@
   }
 
   .productTitle {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: clamp(28px, 1.9312vw, 32px);
+    line-height: 1.25em;
   }
 
   .productText {
@@ -263,8 +263,8 @@
 
 @media (min-width: 1350px) {
   .heading {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: clamp(36px, 2.875976vw, 48px);
+    line-height: 1.16667em;
   }
 
   .top {
@@ -272,6 +272,7 @@
   }
 
   .section {
-    padding: 96px 40px 100px;
+    font-size: clamp(36px, 2.875976vw, 48px);
+    padding: 2em 40px 0.229em;
   }
 }
