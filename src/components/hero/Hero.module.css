@@ -78,11 +78,12 @@
 
 @media (min-width: 1350px) {
   .heading {
-    font-size: 72px;
-    line-height: 88px;
+    font-size: clamp(56px, 4.67229vw, 72px);
+    line-height: 1.22em;
   }
 
   .wrapperInner {
-    padding: 172px 40px 184px;
+    font-size: clamp(56px, 4.67229vw, 72px);
+    padding: 2.3888em 40px 2.5555em;
   }
 }
