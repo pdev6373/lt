@@ -17,7 +17,7 @@ const socials = [
   },
   {
     icon: linkedIn,
-    link: "",
+    link: "https://www.linkedin.com/company/standage-ltd/",
   },
   {
     icon: facebook,
