@@ -1,0 +1,277 @@
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 30px 24px 60px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.heading {
+  color: #e16e4e;
+  font-family: "Bitter", serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+}
+
+.topBody {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #202020;
+}
+
+.awards {
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products,
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+}
+
+.award {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.awardButton {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.awardText {
+  color: #202020;
+  font-family: "Bitter", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  margin-block: 4px 16px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.left {
+  display: flex;
+}
+
+.productTitle {
+  font-family: "Bitter", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #202020;
+}
+
+.productTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.productImage {
+  max-width: 600px;
+  width: 100%;
+}
+
+.productText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+}
+
+.productBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 955px;
+}
+
+.feature > * {
+  min-width: calc(50% - 4px);
+}
+
+@media (min-width: 400px) {
+  .topLeft {
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .awardText {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .section {
+    padding: 64px 24px 72px;
+  }
+
+  .heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .topBody {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .wrapper {
+    gap: 40px;
+  }
+
+  .productTitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .productText {
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 600px) {
+  .awards {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .award {
+    max-width: 466px;
+  }
+}
+
+@media (min-width: 700px) {
+  .top {
+    gap: 4px;
+  }
+
+  .heading {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .section {
+    padding: 72px 40px 90px;
+  }
+
+  .wrapper {
+    gap: 48px;
+  }
+
+  .awardText {
+    margin-block: 8px 40px;
+  }
+
+  .features {
+    gap: 100px;
+  }
+
+  .product {
+    gap: 24px;
+  }
+
+  .productTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .productText {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .productBottom {
+    gap: 40px;
+  }
+
+  .feature > * {
+    min-width: calc(50% - 16px);
+  }
+}
+
+@media (min-width: 900px) {
+  .products {
+    flex-direction: row;
+  }
+
+  .feature {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .featureReverse {
+    flex-direction: row-reverse;
+  }
+
+  .product {
+    max-width: 466px;
+  }
+
+  .products {
+    gap: 24px;
+  }
+
+  .awards {
+    gap: 24px;
+  }
+
+  .features {
+    gap: 120px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .heading {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .top {
+    gap: 8px;
+  }
+
+  .section {
+    padding: 96px 40px 100px;
+  }
+}

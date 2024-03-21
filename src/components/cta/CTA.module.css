@@ -1,0 +1,90 @@
+.wrapper {
+  background: url(../../assets/cta-image-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapperInner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 64px 24px 100px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heading {
+  max-width: 760px;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.heading_accent {
+  color: #dbca00;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 580px;
+}
+
+@media (min-width: 400px) {
+  .heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .body {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .wrapperInner {
+    padding: 64px 24px 137px;
+  }
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    background: url(../../assets/cta-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .wrapperInner {
+    gap: 48px;
+    padding: 80px 60px 140px;
+  }
+
+  .heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 980px) {
+  .wrapperInner {
+    padding: 80px 10vw 140px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .wrapperInner {
+    gap: 48px;
+    padding: 96px 16.8vw 204px;
+  }
+
+  .heading {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
