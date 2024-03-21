@@ -1,7 +1,7 @@
 .button {
   font-family: "Bitter", serif;
   background: #e16e4e;
-  padding: 12px;
+  padding: 8px;
   width: 100%;
   max-width: 182px;
   margin-inline: auto;
@@ -9,6 +9,13 @@
   font-weight: 600;
   line-height: 24px;
   color: #fff;
+  border: 2px solid #e16e4e;
+  transition: all 0.25s;
+}
+
+.button:hover {
+  background: transparent;
+  color: #e16e4e;
 }
 
 @media (min-width: 700px) {

@@ -9,11 +9,11 @@ import { Reveal } from "..";
 const socials = [
   {
     icon: twitter,
-    link: "",
+    link: "https://twitter.com/lakshimi_kobe",
   },
   {
     icon: instagram,
-    link: "",
+    link: "https://www.instagram.com/lakshimi.kobe/",
   },
   {
     icon: linkedIn,
@@ -21,7 +21,7 @@ const socials = [
   },
   {
     icon: facebook,
-    link: "",
+    link: "https://www.facebook.com/lakshimi.tea/",
   },
 ];
 
@@ -41,7 +41,12 @@ export default function Footer() {
 
         <div className={styles.socials}>
           {socials.map((social, index) => (
-            <a href="#" className={styles.socialIcon} key={index}>
+            <a
+              href={social.link}
+              className={styles.socialIcon}
+              key={index}
+              target="_blank"
+            >
               <Reveal delay={0.35 + index * 0.1}>
                 <img src={social.icon} alt="social" width={24} height={24} />
               </Reveal>
